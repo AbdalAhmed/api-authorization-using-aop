@@ -8,6 +8,6 @@ public class PermissionAuthImpl {
 
     public boolean authorize(String apiKey) {
 
-        return false;
+        return true;
     }
 }
