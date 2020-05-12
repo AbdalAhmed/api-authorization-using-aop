@@ -3,15 +3,16 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
@@ -19,13 +20,44 @@ target/
 *.iml
 *.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
 
-### VS Code ###
-.vscode/
+*#
+*.jar
+*.sw?
+*~
+.#*
+.*.md.html
+.DS_Store
+.classpath
+.factorypath
+.gradle
+.metadata
+.project
+.recommenders
+.settings
+.springBeans
+/code
+MANIFEST.MF
+_site/
+activemq-data
+bin
+build
+!/**/src/**/bin
+!/**/src/**/build
+build.log
+dump.rdb
+interpolated*.xml
+lib/
+manifest.yml
+out
+overridedb.*
+target
+transaction-logs
+.flattened-pom.xml
+secrets.yml
+.gradletasknamecache
+.sts4-cache
+
+
+# maven
+
